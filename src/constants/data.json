@@ -1,0 +1,99 @@
+{
+  "teams": [
+    {
+      "name": "Propellor Prop Squad",
+      "members": [
+        {
+          "id": 1,
+          "name": "Demo Teammember"
+        },
+        {
+          "id": 2,
+          "name": "Jay Huffman"
+        },
+        {
+          "id": 3,
+          "name": "Nick Jones"
+        },
+        {
+          "id": 4,
+          "name": "Collin Duddy"
+        },
+        {
+          "id": 5,
+          "name": "Nicholas Dzwill"
+        },
+        {
+          "id": 6,
+          "name": "Malinda Mosholder"
+        }
+      ],
+      "tickets": [
+        {
+          "id": "1",
+          "name": "Vegas Trip!",
+          "wager": "$165.69",
+          "payout": "$5586.23",
+          "picks": [
+            {
+              "id": 1,
+              "userId": 2,
+              "name": "Ronald Acuña Jr",
+              "propType": "Stolen Bases",
+              "game": "Atl @ Stl - 1:15pm",
+              "propNumber": 0.5,
+              "over": true,
+              "amount": "$20.00",
+              "imageName": "ronald.png"
+            },
+            {
+              "id": 2,
+              "userId": 3,
+              "name": "Luca Doncic",
+              "propType": "Points",
+              "game": "Sac @ Dal - 8:30pm",
+              "propNumber": 34.5,
+              "over": true,
+              "amount": "$35.00",
+              "imageName": "luca.png"
+            },
+            {
+              "id": 3,
+              "userId": 4,
+              "name": "Shohei Ohtani",
+              "propType": "Strikeouts",
+              "game": "LAA @ SEA - 8:30pm",
+              "propNumber": 7.5,
+              "over": false,
+              "amount": "$10.00",
+              "imageName": "shohei.png"
+            },
+            {
+              "id": 4,
+              "userId": 5,
+              "name": "Brayden Point",
+              "propType": "Shots",
+              "game": "TOR @ TBL - 7:30pm",
+              "propNumber": 1.5,
+              "over": true,
+              "amount": "$15.00",
+              "imageName": "point.png"
+            },
+            {
+              "id": 5,
+              "userId": 6,
+              "name": "CJ McCollumn",
+              "propType": "Pts + Rebs + Assists",
+              "game": "NOP @ MIA - 8:30am",
+              "propNumber": 32.0,
+              "over": true,
+              "amount": "$15.00",
+              "imageName": "cj.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sports": ["NBA", "MLB", "NHL", "PGA", "Soccer", "eSports"]
+}
