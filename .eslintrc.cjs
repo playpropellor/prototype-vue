@@ -3,16 +3,29 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
+  globals: {
+    defineProps: true,
+    defineEmits: true,
+  },
   extends: [
     'plugin:vue/vue3-essential',
-    'standard',
-    '@vue/eslint-config-typescript',
-    '@vue/eslint-config-prettier/skip-formatting'
+    'eslint:recommended',
+    '@vue/eslint-config-typescript/recommended',
+    'prettier',
   ],
   rules: {
-    indent: [2, { SwitchCase: 1 }]
+    indent: [2, 2, { SwitchCase: 1 }],
+    'vue/max-attributes-per-line': [
+      'error',
+      {
+        singleline: {
+          max: 2,
+        },
+      },
+    ],
+    'vue/multi-word-component-names': 'off',
   },
   parserOptions: {
-    ecmaVersion: 'latest'
-  }
+    ecmaVersion: 'latest',
+  },
 }

@@ -1,5 +1,5 @@
 <template>
-  <main class="flex gap-2">
+  <main class="flex gap-2 pb-4">
     <Sidebar />
     <Teams />
     <router-view></router-view>

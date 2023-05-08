@@ -44,18 +44,18 @@
               "propNumber": 0.5,
               "over": true,
               "amount": "$20.00",
-              "imageName": "ronald.png"
+              "imageName": "ronald.svg"
             },
             {
               "id": 2,
               "userId": 3,
-              "name": "Luca Doncic",
+              "name": "Luka Doncic",
               "propType": "Points",
               "game": "Sac @ Dal - 8:30pm",
               "propNumber": 34.5,
               "over": true,
               "amount": "$35.00",
-              "imageName": "luca.png"
+              "imageName": "luka.svg"
             },
             {
               "id": 3,
@@ -66,7 +66,7 @@
               "propNumber": 7.5,
               "over": false,
               "amount": "$10.00",
-              "imageName": "shohei.png"
+              "imageName": "shohei.svg"
             },
             {
               "id": 4,
@@ -77,7 +77,7 @@
               "propNumber": 1.5,
               "over": true,
               "amount": "$15.00",
-              "imageName": "point.png"
+              "imageName": "point.svg"
             },
             {
               "id": 5,
@@ -88,10 +88,26 @@
               "propNumber": 32.0,
               "over": true,
               "amount": "$15.00",
-              "imageName": "cj.png"
+              "imageName": "cj.svg"
             }
           ]
         }
+      ]
+    }
+  ],
+  "playerProps": [
+    {
+      "playerId": 1,
+      "name": "CJ McCollum",
+      "game": "NOP @ MIA - 8:30am",
+      "imageName": "cj.svg",
+      "props": [
+        { "id": 1, "propNumber": 4.5, "propName": "Rebounds" },
+        { "id": 2, "propNumber": 27.5, "propName": "Points" },
+        { "id": 3, "propNumber": 44.5, "propName": "Points + Rebounds + Assists" },
+        { "id": 4, "propNumber": 2.5, "propName": "Shots" },
+        { "id": 5, "propNumber": 1.5, "propName": "Hits + Runs + Steals" },
+        { "id": 6, "propNumber": 6.5, "propName": "Assists" }
       ]
     }
   ],
