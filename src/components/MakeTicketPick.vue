@@ -9,7 +9,11 @@
           <p class="text-xs uppercase text-transparentWhite-500">{{ player.game }}</p>
         </div>
       </div>
-      <div class="flex justify-between py-2" v-for="prop in player.props" :key="prop.id">
+      <div
+        class="flex justify-between p-2 border-b border-transparentWhite-800"
+        v-for="prop in player.props"
+        :key="prop.id"
+      >
         <div class="text-xs text-white">
           <span>{{ prop.propNumber }}</span> <span>{{ prop.propName }}</span>
         </div>
