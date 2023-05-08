@@ -17,6 +17,16 @@
         <div class="text-xs text-white">
           <span>{{ prop.propNumber }}</span> <span>{{ prop.propName }}</span>
         </div>
+        <div class="flex border border-white divide-x">
+          <span
+            class="flex items-center justify-center w-12 text-xs uppercase cursor-pointer hover:bg-blue-400"
+            >Over</span
+          >
+          <span
+            class="flex items-center justify-center w-12 text-xs uppercase cursor-pointer hover:bg-blue-400"
+            >Under</span
+          >
+        </div>
       </div>
     </li>
   </ul>

@@ -31,11 +31,22 @@
         <p class="py-2 text-xs text-transparentWhite-500">
           {{ pick.propNumber }} {{ pick.propType }}
         </p>
-        <!-- <div class="flex h-4 border border-white divide-x">
-            <span class="flex items-center justify-center w-8">&#xfe3f;</span>
-            <span class="flex items-center justify-center w-8">&#xfe40;</span>
-          </div> -->
-        <p class="text-xs">{{ pick.over ? 'over' : 'under' }}</p>
+        <div class="flex border border-white divide-x">
+          <span
+            class="flex items-center justify-center w-12 text-xs uppercase"
+            :class="{
+              'bg-transparentWhite-500': pick.over,
+            }"
+            >Over</span
+          >
+          <span
+            class="flex items-center justify-center w-12 text-xs uppercase"
+            :class="{
+              'bg-transparentWhite-500': !pick.over,
+            }"
+            >Under</span
+          >
+        </div>
       </div>
     </li>
   </ul>
