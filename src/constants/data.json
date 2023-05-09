@@ -102,12 +102,11 @@
       "game": "NOP @ MIA - 8:30am",
       "imageName": "cj.svg",
       "props": [
-        { "id": 1, "propNumber": 4.5, "propName": "Rebounds" },
-        { "id": 2, "propNumber": 27.5, "propName": "Points" },
-        { "id": 3, "propNumber": 44.5, "propName": "Points + Rebounds + Assists" },
-        { "id": 4, "propNumber": 2.5, "propName": "Shots" },
-        { "id": 5, "propNumber": 1.5, "propName": "Hits + Runs + Steals" },
-        { "id": 6, "propNumber": 6.5, "propName": "Assists" }
+        { "id": 1, "propNumber": 4.5, "propType": "Rebounds" },
+        { "id": 2, "propNumber": 27.5, "propType": "Points" },
+        { "id": 3, "propNumber": 44.5, "propType": "Points + Rebounds + Assists" },
+        { "id": 4, "propNumber": 2.5, "propType": "Shots" },
+        { "id": 6, "propNumber": 6.5, "propType": "Assists" }
       ]
     },
     {
@@ -116,12 +115,11 @@
       "game": "Sac @ Dal - 8:30pm",
       "imageName": "luka.svg",
       "props": [
-        { "id": 1, "propNumber": 4.5, "propName": "Rebounds" },
-        { "id": 2, "propNumber": 27.5, "propName": "Points" },
-        { "id": 3, "propNumber": 44.5, "propName": "Points + Rebounds + Assists" },
-        { "id": 4, "propNumber": 2.5, "propName": "Shots" },
-        { "id": 5, "propNumber": 1.5, "propName": "Hits + Runs + Steals" },
-        { "id": 6, "propNumber": 6.5, "propName": "Assists" }
+        { "id": 7, "propNumber": 4.5, "propType": "Rebounds" },
+        { "id": 8, "propNumber": 27.5, "propType": "Points" },
+        { "id": 9, "propNumber": 44.5, "propType": "Points + Rebounds + Assists" },
+        { "id": 10, "propNumber": 2.5, "propType": "Shots" },
+        { "id": 12, "propNumber": 6.5, "propType": "Assists" }
       ]
     }
   ],

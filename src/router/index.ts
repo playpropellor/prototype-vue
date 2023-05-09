@@ -12,11 +12,11 @@ const router = createRouter({
       children: [
         {
           path: '/ticket/:ticketId',
-          component: TicketContainer
+          component: TicketContainer,
         }
       ]
     },
-    
+
   ]
 })
 

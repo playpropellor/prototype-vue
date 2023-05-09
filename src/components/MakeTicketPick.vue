@@ -27,11 +27,11 @@
         class="flex justify-between p-2 border-b border-transparentWhite-800"
       >
         <div class="text-xs text-white">
-          <span>{{ prop.propNumber }}</span> <span>{{ prop.propName }}</span>
+          <span>{{ prop.propNumber }}</span> <span>{{ prop.propType }}</span>
         </div>
         <div class="flex border border-white divide-x">
-          <span class="flex items-center justify-center w-12 text-xs uppercase cursor-pointer hover:bg-blue-400">Over</span>
-          <span class="flex items-center justify-center w-12 text-xs uppercase cursor-pointer hover:bg-blue-400">Under</span>
+          <span class="flex items-center justify-center w-12 text-xs uppercase cursor-pointer hover:bg-blue-400" @click="$emit('update:pick', { ...player, ...prop, over: true })">Over</span>
+          <span class="flex items-center justify-center w-12 text-xs uppercase cursor-pointer hover:bg-blue-400" @click="$emit('update:pick', { ...player, ...prop, over: false })">Under</span>
         </div>
       </div>
     </li>
@@ -40,6 +40,8 @@
 
 <script setup lang="ts">
 import data from '../constants/data.json'
+
+defineEmits(['update:pick'])
 
 const playerProps = data.playerProps
 

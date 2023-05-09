@@ -12,6 +12,11 @@
       @update:adding-pick="addingPick = !addingPick"
     />
   </section>
+  <PickOrderSlip
+    v-if="pick && addingPick"
+    :pick="pick"
+    :team-members="teamMembers"
+  />
 </template>
 
 <script setup lang="ts">
@@ -20,6 +25,7 @@ import { useRoute } from 'vue-router'
 
 import ViewTicketPicks from './ViewTicketPicks.vue'
 import MakeTicketPick from './MakeTicketPick.vue'
+import PickOrderSlip from './PickOrderSlip.vue'
 
 import data from '../constants/data.json'
 
